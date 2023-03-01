@@ -1,0 +1,27 @@
+.table{
+    width: 100%;
+    thead{
+        background-color: gray;
+    }
+
+    td{
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 500px;
+    }
+}
+
+.todo-card{
+    word-break: break-all;
+    
+    .title{
+        font-weight: 600;
+        display: block;
+        &-head{
+            text-align: center;
+        }
+    }
+
+}

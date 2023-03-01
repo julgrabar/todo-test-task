@@ -1,0 +1,25 @@
+.form {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.fieldset{
+display: flex;
+flex-direction: column;
+
+    input{
+        padding: 5px;
+        border-radius: 3px
+    }
+    .invalid-field{
+        border-color: red;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+    }
+    .error{
+    font-size: 12px;
+    color: red;
+}
+}
+
